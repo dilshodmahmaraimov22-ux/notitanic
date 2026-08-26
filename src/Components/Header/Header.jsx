@@ -6,7 +6,6 @@ function Header() {
     <header className="site-header">
       <div className="header-container">
         
-        {/* LOGO */}
         <a href="#home" className="header-logo">
           <svg className="logo-icon" viewBox="0 0 24 24" fill="none" stroke="#00eeff" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round">
             <polygon points="12 2 2 19 22 19 12 2"></polygon>
@@ -15,7 +14,6 @@ function Header() {
           <span className="logo-text">notitanic</span>
         </a>
 
-        {/* NAVIGATION LINKS */}
         <nav className="header-nav">
           <ul>
             <li><a href="#home" className="nav-link active">Home</a></li>

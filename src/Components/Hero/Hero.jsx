@@ -6,7 +6,6 @@ function Hero() {
     <section className="hero-section">
       <div className="hero-container">
         
-        {/* CHAP QISM: MATNLAR VA TUGMA */}
         <div className="hero-content">
           <span className="hero-greeting">HELLO</span>
           <h1 className="hero-name">
@@ -20,9 +19,7 @@ function Hero() {
           </a>
         </div>
 
-        {/* O'NG QISM: 3D PERSONAJ VA DOIRA */}
         <div className="hero-image-container">
-          {/* ORQA FONDA GI MOVY DOIRA VA ICONS */}
           <div className="circle-wrapper">
             <span className="skill-badge badge-code">&lt;/&gt;</span>
             <span className="skill-badge badge-ui">UI</span>
@@ -30,7 +27,6 @@ function Hero() {
             <span className="skill-badge badge-ps">PS</span>
           </div>
 
-          {/* PERSONAJ RASMI */}
           <img 
             src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=800&q=80" 
             alt="Gleb Kostrubov" 

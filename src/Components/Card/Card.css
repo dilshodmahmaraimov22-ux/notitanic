@@ -11,7 +11,6 @@
   padding: 0 20px;
 }
 
-/* CARDS GRID */
 .services-grid {
   display: flex;
   flex-wrap: wrap;
@@ -52,7 +51,6 @@
   text-align: center;
 }
 
-/* ABOUT SECTION LAYOUT */
 .about-wrapper {
   position: relative;
   max-width: 750px;
@@ -83,7 +81,6 @@
   margin-bottom: 12px;
 }
 
-/* IMAGES AROUND ABOUT CONTENT */
 .about-img {
   position: absolute;
   z-index: 6;
@@ -121,7 +118,6 @@
   transform: translateY(-50%);
 }
 
-/* DECORATIVE CIRCLES */
 .circle-bg {
   position: absolute;
   border-radius: 50%;
@@ -157,7 +153,6 @@
   right: 20px;
 }
 
-/* RESPONSIVE */
 @media (max-width: 992px) {
   .about-img, .circle-bg {
     display: none;

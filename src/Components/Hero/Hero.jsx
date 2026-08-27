@@ -1,5 +1,6 @@
 import React from 'react';
 import './Hero.css';
+import  IMG from "./Images/Hero.png"
 
 function Hero() {
   return (
@@ -28,7 +29,7 @@ function Hero() {
           </div>
 
           <img 
-            src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=800&q=80" 
+            src={IMG} 
             alt="Gleb Kostrubov" 
             className="hero-avatar"
           />
